@@ -23,5 +23,7 @@ class Solution
 
 $model = new Solution();
 var_dump($model->isValid("[]")); // true
-var_dump($model->isValid("()[]{}"));// true
-var_dump($model->isValid("(]"));// false
+var_dump($model->isValid("()[]{}")); // true
+var_dump($model->isValid("(]")); // false
+// Question :
+// https://leetcode.com/problems/valid-parentheses/
