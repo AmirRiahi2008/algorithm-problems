@@ -13,6 +13,7 @@ class Solution
         $result = (string) $list1 + $list2;
         $result = str_split($result);
         return array_reverse($result);
+  
     }
 }
 
