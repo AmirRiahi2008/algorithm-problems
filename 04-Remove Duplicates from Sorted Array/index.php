@@ -15,10 +15,11 @@ class Solution
             }
         }
         return $k;
-        // return array_slice($nums, 0, $k);
     }
 }
 $nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
 $solutionModel = new Solution();
-var_dump($solutionModel->removeDuplicates($nums));// [1 , 2 , _]
-// var_dump($solutionModel->removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
+var_dump($solutionModel->removeDuplicates($nums));
+var_dump($solutionModel->removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
+// Question :
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
