@@ -14,5 +14,5 @@ class Solution
 $solutionModel = new Solution();
 var_dump($solutionModel->strStr("sadbutsad", "sad")); // 0 index
 var_dump($solutionModel->strStr("leetcode", "leeto")); // -1 
-// Question
+// Question :
 // https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/
