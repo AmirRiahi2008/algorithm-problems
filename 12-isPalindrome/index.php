@@ -12,4 +12,4 @@ class Solution
 
 $solutionModel = new Solution();
 var_dump($solutionModel->isPalindrome(123)); // [1,2]
-var_dump($solutionModel->isPalindrome(121)); // [1,2,3]
+var_dump($solutionModel->isPalindrome(10)); // [1,2,3]
