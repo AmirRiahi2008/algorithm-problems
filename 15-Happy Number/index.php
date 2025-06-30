@@ -22,3 +22,6 @@ class Solution
 $solutionModel = new Solution();
 var_dump($solutionModel->isHappy(19)); // true
 var_dump($solutionModel->isHappy(2));  // false
+
+// Question
+// https://leetcode.com/problems/happy-number/
